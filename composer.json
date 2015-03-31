@@ -1,0 +1,19 @@
+{
+  "name": "benchmark",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [],
+  "autoload": {
+    "psr-0": {
+      "BenchmarkSuite": "src/"
+    },
+    "psr-4": {
+      "Benchmark\\": "benchmarks/",
+      "Test\\": "tests/"
+    }
+  },
+  "require": {
+    "doctrine/orm": "*"
+  }
+}
